@@ -1,0 +1,58 @@
+body {
+    min-width: 1425px;
+    height: 10286.33px;
+    top: 298px;
+    left: 200px;
+}
+
+.centered-block {
+    margin: 0 auto;
+    width: 1425px;
+}
+
+.intro-block {
+    display: flex;
+    margin: 0 auto;
+}
+
+.intro-block-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.intro-block-header {
+    font-family: "Roboto", serif;
+    font-size: 55px;
+    font-weight: 1000;
+    line-height: 1;
+    margin-top: 78px;
+    text-align: center;
+}
+
+.intro-block-subheader {
+    font-family: "Roboto", serif;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 24px;
+    margin-top: 50px;
+    text-align: center;
+
+}
+
+.intro-block-button {
+    font-family: "Roboto", serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18px;
+    text-transform: uppercase;
+    background: #56fbae;
+    color: black;
+    border: 0px;
+    height: 50px;
+    width: 240px;
+    cursor: pointer;
+    margin-top: 38px;
+    text-align: center;
+}
