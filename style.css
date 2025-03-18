@@ -1,5 +1,5 @@
 body {
-    min-width: 1425px;
+    min-width: 1200px;
     height: 10286.33px;
     top: 298px;
     left: 200px;
@@ -7,52 +7,96 @@ body {
 
 .centered-block {
     margin: 0 auto;
-    width: 1425px;
+    width: 1200px;
 }
+
+.bkg {
+    background: #f3f5ff;
+}
+
 
 .intro-block {
-    display: flex;
-    margin: 0 auto;
-}
-
-.intro-block-text {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    padding: 120px;
     text-align: center;
 }
 
 .intro-block-header {
-    font-family: "Roboto", serif;
-    font-size: 55px;
-    font-weight: 1000;
-    line-height: 1;
-    margin-top: 78px;
+    font-family: "Inter", sans-serif;
+    font-size: 54px;
+    font-weight: 700;
+    color: #0B0A33;
+    line-height: 74px;
     text-align: center;
 }
 
 .intro-block-subheader {
-    font-family: "Roboto", serif;
-    font-size: 30px;
-    font-weight: 800;
-    line-height: 24px;
-    margin-top: 50px;
+    font-family: "Inter", serif;
+    font-size: 17px;
+    font-weight: 500;
+    color: #7A7D9C;
+    line-height: 29px;
+    margin-top: 25px;
     text-align: center;
 
 }
 
 .intro-block-button {
-    font-family: "Roboto", serif;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 18px;
-    text-transform: uppercase;
-    background: #56fbae;
-    color: black;
+    border-radius: 34px;
+    font-family: "Inter", sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    background: #5335D9;
+    color: white;
     border: 0px;
-    height: 50px;
-    width: 240px;
+    height: 67px;
+    padding-left: 42px;
+    padding-right: 42px;
     cursor: pointer;
-    margin-top: 38px;
+    margin-top: 66px;
+    margin-bottom: 66px;
+    text-align: center;
+}
+
+.centered-block-2 {
+    margin: 0 auto;
+    width: 1200px;
+    height: 341.75px;
+}
+
+.intro-block-button-2 {
+    border-radius: 50px;
+    font-family: "Inter", sans-serif;
+    font-size: 14.8px;
+    font-weight: 700;
+    background: #F3F5FF;
+    color: #5335D9;
+    border: 0px;
+    height: 45.75px;
+    padding-left: 24px;
+    padding-right: 24px;
+    cursor: pointer;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.intro-block-header-2 {
+    font-family: "Inter", sans-serif;
+    font-size: 38.3px;
+    font-weight: 700;
+    color: #0B0A33;
+    line-height: 56px;
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+
+.intro-block-subheader-2 {
+    font-family: "Inter", serif;
+    font-size: 17.6px;
+    font-weight: 500;
+    color: #7A7D9C;
+    line-height: 30.1px;
+    margin-top: 20px;
     text-align: center;
 }
